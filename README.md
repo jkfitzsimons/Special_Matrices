@@ -23,7 +23,10 @@ The vandermonde matrix is an interesting matrix where each column is a vector ra
 
 ## Hierarchical matrices
 
+Hiearchical matrices utilise blockwise low rank matrix approximations for low memory storage and fast matrix opperations. Some methods are outlined below. 
+
 ### HODLR matrices O(nlog(n))
+Hierarchical Off Diagnol Low Rank (HODLR) Matrices utilise a recursive off diagnol structure. There is a good paper which clearly explains this factoring and inversion [by Ambikasaran et al.](http://arxiv.org/pdf/1403.6015.pdf)
 
 ### Fast Multipole Methods O(nm^2 or nlog(1/\eps))
 
